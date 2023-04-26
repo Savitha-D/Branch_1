@@ -1,0 +1,18 @@
+git config --global user.name "username"
+git config --global user.mail "Mail"
+git status
+git add filename
+git rm --cached filename ( To revert the file added using git add)
+git add .
+git commit -m "Commit msg"
+git diff 
+git restore --staged filename
+git log
+git log --oneline (only displays commit msg and ID)
+git commit -m "Commit msg" --amend (To update previous commit msg details)
+git branch BranchName ( To create new branch)
+git branch ( To get list of available branches)
+git switch branchname (To switch to another branch)
+git merge -m "Merge msg" MergeBranch
+git branch -d Branchname ( To delete a branch)
+git switch -c branchname (To create a new branch and switch to it)
