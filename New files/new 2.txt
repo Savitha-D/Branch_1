@@ -4,7 +4,7 @@ git status
 git add filename
 git rm --cached filename ( To revert the file added using git add)
 git add .
-git commit -m "Commit msg"
+git commit -m "Commit msg for feature Branch"
 git diff 
 git restore --staged filename
 git log
